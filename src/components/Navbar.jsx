@@ -18,12 +18,33 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
+    const onScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
   }, []);
+
+  const handleScroll = (e, href) => {
+    e.preventDefault();
+    
+    if (href.startsWith('#')) {
+      const target = document.querySelector(href);
+      if(target) {
+        // Use a tiny timeout to ensure React state updates don't interrupt the browser's scroll layout engine
+        setTimeout(() => {
+          window.scrollTo({
+            top: target.offsetTop - 80,
+            behavior: 'smooth'
+          });
+        }, 50);
+      }
+    } else {
+      window.location.href = href;
+    }
+
+    setIsOpen(false);
+  };
 
   return (
     <motion.nav 
@@ -44,6 +65,7 @@ const Navbar = () => {
               key={idx} 
               href={link.href} 
               className="nav-link"
+              onClick={(e) => handleScroll(e, link.href)}
               whileHover={{ scale: 1.05, color: 'var(--neon-cyan)' }}
               transition={{ type: "spring", stiffness: 300 }}
             >
@@ -74,7 +96,12 @@ const Navbar = () => {
             exit={{ opacity: 0, height: 0 }}
           >
             {navLinks.map((link, idx) => (
-              <a key={idx} href={link.href} className="mobile-link" onClick={() => setIsOpen(false)}>
+              <a 
+                key={idx} 
+                href={link.href} 
+                className="mobile-link" 
+                onClick={(e) => handleScroll(e, link.href)}
+              >
                 <span className="mono-text">0{idx + 1}.</span> {link.text}
               </a>
             ))}
