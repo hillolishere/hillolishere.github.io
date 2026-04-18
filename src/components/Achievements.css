@@ -1,0 +1,30 @@
+.achievements-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.achievement-card {
+  padding: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  transition: all 0.3s ease;
+}
+
+.achievement-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--neon-emerald);
+  box-shadow: 0 5px 15px rgba(16, 185, 129, 0.15);
+}
+
+.award-icon {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.achievement-text {
+  color: var(--text-primary);
+  line-height: 1.6;
+  font-size: 1rem;
+}
