@@ -1,0 +1,299 @@
+{
+  "hero": {
+    "title": "Er. HILLOL DAS",
+    "role": "AIoT Researcher | Cloud-based Distributed System Integrator | Academic Expert | App Developer",
+    "experience": "14+ years of experience",
+    "contact": {
+      "email": "hillol.das@gov.in",
+      "altEmail": "hilloldascs@gmail.com",
+      "mobile": "+91 9774840986 / 7005917758",
+      "linkedin": "https://www.linkedin.com/in/hillolishere",
+      "facebook": "https://www.facebook.com/hillolishere",
+      "instagram": "https://www.instagram.com/hillolishere",
+      "x": "https://x.com/hillolishere",
+      "website": "https://hillolishere.github.io/"
+    }
+  },
+  "objective": "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact. Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems. To acquire an opportunity to establish an academic career in an organization where I can do meaningful works for the development of my teaching ability and which offers opportunity for growth, enriching the experience and to achieve excellence in the field of my work.",
+  "interests": [
+    "Technology related matters",
+    "e-Governance",
+    "Geo-Spatial Technologies for Rural Planning",
+    "Internet of Things with Human Computer Interaction",
+    "Image Processing using Pattern Recognition"
+  ],
+  "academicProfile": [
+    {
+      "year": "2014",
+      "degree": "Master of Technology in Computer Science and Engineering",
+      "institution": "National Institute of Technology, Agartala, Government of India"
+    },
+    {
+      "year": "2012",
+      "degree": "Post Graduate – Diploma in Advanced Computing",
+      "institution": "Centre for Development of Advanced Computing (C-DAC) ACTS, PUNE"
+    },
+    {
+      "year": "2011",
+      "degree": "Bachelor of Engineering in Computer Science and Engineering",
+      "institution": "Tripura Institute of Technology, Agartala, Tripura"
+    },
+    {
+      "year": "2007",
+      "degree": "All India Senior School Certificate Examination (AISSCE)",
+      "institution": "Jawahar Navodaya Vidyalaya Hailakandi School, Assam"
+    },
+    {
+      "year": "2005",
+      "degree": "All India School Certificate Examination (AISCE)",
+      "institution": "Jawahar Navodaya Vidyalaya Hailakandi School, Assam"
+    }
+  ],
+  "experienceTimeline": [
+    {
+      "type": "Industrial Training",
+      "date": "2010",
+      "title": "One Month Industrial Training on DOT NET",
+      "organization": "Moniba Compu Academy Pvt. Ltd. (Authorized by IBM)"
+    },
+    {
+      "type": "Training",
+      "date": "18th – 20th November, 2014",
+      "title": "Specialized Training for e-Governance Program on Information Security Management",
+      "organization": "National Institute for Smart Government and DIT, Govt. of Tripura"
+    },
+    {
+      "type": "Training",
+      "date": "1st – 28th February, 2016",
+      "title": "One Month Induction Training Programme for PRDOs",
+      "organization": "PRTI, A.D Nagar, Tripura, India"
+    },
+    {
+      "type": "Training",
+      "date": "1st – 7th June, 2016",
+      "title": "7 Days Training Programme on e-Panchayat Applications",
+      "organization": "PRTI, A.D Nagar, Tripura, India"
+    },
+    {
+      "type": "Training",
+      "date": "20th – 24th June, 2016",
+      "title": "Training Programme on e-Governance Applications for RD in context to Digital India",
+      "organization": "NIRD&PR-NERC, Guwahati, Government of India"
+    },
+    {
+      "type": "Seminar",
+      "date": "5th – 7th January, 2017",
+      "title": "International Seminar on Rural Habitat, Institutions and Development: Changing Nature & Challenges",
+      "organization": "Tripura University, India"
+    },
+    {
+      "type": "ToT",
+      "date": "17th – 18th January, 2017",
+      "title": "National Level ToT Programme on Enabling Digital Payments in Rural India",
+      "organization": "NIRD&PR-NERC, Guwahati, Government of India"
+    },
+    {
+      "type": "ToT",
+      "date": "18th – 22nd June, 2018",
+      "title": "Training of Trainers Programme on e-Enablement of Gram Panchayats: PES and PFMS",
+      "organization": "NIRDPR, Hyderabad, Government of India"
+    },
+    {
+      "type": "Training",
+      "date": "14th January, 2020",
+      "title": "Training on Blockchain Technology",
+      "organization": "DIT, Agartala, Government of Tripura & NISG"
+    },
+    {
+      "type": "Training",
+      "date": "28th January, 2020",
+      "title": "Training on Digital Governance",
+      "organization": "DIT, Agartala, Government of Tripura & NISG"
+    },
+    {
+      "type": "Training",
+      "date": "24th - 25th August, 2020",
+      "title": "Learning Science and impact of e-Learning on Rural Development Training",
+      "organization": "Panchayat Raj Training Institute, Agartala"
+    },
+    {
+      "type": "Training",
+      "date": "15th - 18th September, 2020",
+      "title": "Institutionalisation of Sustainable Development Goals (SDGs) through Panchayats to manage COVID-19 crisis",
+      "organization": "NIRDPR, Hyderabad, Government of India"
+    }
+  ],
+  "projects": [
+    {
+      "year": "2010",
+      "title": "Training Portal Site",
+      "tech": "J2EE, Oracle 10g",
+      "desc": "Mini project in B.E."
+    },
+    {
+      "year": "2023",
+      "title": "Gram Barta App",
+      "tech": "Android, Firebase",
+      "desc": "Developed to facilitate rural communication (Available on Google Play Store)"
+    },
+    {
+      "year": "2011",
+      "title": "Blue Brain – an Artificial Intelligence Product",
+      "tech": "Seminar",
+      "desc": "by EPFL and IBM combined Project"
+    },
+    {
+      "year": "2011",
+      "title": "E-Resources",
+      "tech": "ASP.Net & SQL SERVER 2005",
+      "desc": "Final year project in B.E."
+    },
+    {
+      "year": "2012",
+      "title": "Online Sales & Inventory Management System",
+      "tech": "Struts 2, Hibernate, Oracle 11g",
+      "desc": "PG-DAC project"
+    },
+    {
+      "year": "2013",
+      "title": "Controlling Home Appliances using Hand Gesture",
+      "tech": "M.Tech",
+      "desc": "Mini project"
+    },
+    {
+      "year": "2014",
+      "title": "Automatic Detection and Analysis of Retinal Diseases from Fundus Images",
+      "tech": "M.Tech",
+      "desc": "Final year project"
+    }
+  ],
+  "skills": {
+    "languages": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Dart",
+      "C++",
+      "Java",
+      "C#"
+    ],
+    "os": [
+      "Windows 11",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "database": [
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL",
+      "Redis",
+      "Firebase Firestore"
+    ],
+    "frameworks": [
+      "Flutter",
+      "React.js",
+      "Node.js",
+      "Spring Boot",
+      "Next.js"
+    ],
+    "ide": [
+      "VS Code",
+      "Android Studio",
+      "IntelliJ IDEA",
+      "Jupyter Notebook",
+      "Visual Studio",
+      "Arduino IDE"
+    ],
+    "other": [
+      "LLM",
+      "Computer Vision",
+      "Microsoft Azure",
+      "AWS",
+      "Docker",
+      "Git",
+      "AI Studio"
+    ]
+  },
+  "achievements": [
+    "Qualified Graduate Aptitude Test in Engineering (GATE) twice in the year 2012 and 2015.",
+    "Qualified OPENMAT-XL (Management Programme) Test, IGNOU in the year 2016.",
+    "Best Paper Award for 'Locating Optic Disk in Retinal Fundus Images using Normalized Cross Correlation' at ERCICA 2014, ELSEVIER.",
+    "Ranked 1st in the Entrance Examination for admission to M.Tech in CSE Dept, Tripura University in 2012.",
+    "Consistency in increasing CGPA marks in every semester during M.Tech at NIT Agartala.",
+    "Scored consecutively 95 percentile in state level Aptitude Test conducted by NIIT in 2010 and 2011.",
+    "Cleared Tripura Public Service Commission Exam (TPSC) twice for Group – A & Group – B Post in 2015.",
+    "Invited Speaker in Regional Meet on Geo-Spatial Technologies in 2018 at NIT Agartala."
+  ],
+  "trainings": {
+    "2014": [
+      "“Specialized Training for e-Governance Program on Information Security Management” which was held during 18th – 20th November, 2014 at Agartala, organized by National Institute for Smart Government and Directorate of Information Technology, Govt. of Tripura under National eGovernance Plan."
+    ],
+    "2016": [
+      "“One Month Induction Training Programme for the Panchayat Resource Development Officers (PRDOs)” held from 1st February – 28th February, 2016 at PRTI, A.D Nagar, Tripura, India.",
+      "7 Days Training Programme on “e-Panchayat Applications” held from 1st – 7th June, 2016 at PRTI, A.D Nagar, Tripura, India.",
+      "Training Programme on “e-Governance Applications for RD in context to the Digital India” held from 20th – 24th June, 2016 at NIRD&PR-NERC, Guwahati, Government of India.",
+      "“Two Days Training Programme of Officer In-Charge PRTI (DPOs) & Panchayat Resource Development Officers (PRDOs)” held from 10th – 11th November, 2016 at PRTI, A.D Nagar, Tripura, India.",
+      "“Induction Training Programme for the Cutting Edge Level Officials” held from 14th – 27th December, 2016 at SIPARD, A.D Nagar, Tripura, India."
+    ],
+    "2017": [
+      "International Seminar on “Rural Habitat, Institutions and Development: Changing Nature & Challenges” held from 5th – 7th January, 2017 at Tripura University, India.",
+      "National Level ToT Programme on “Enabling Digital Payments in Rural India” held from 17th – 18th January, 2017 at NIRD&PR-NERC, Guwahati, Government of India.",
+      "Training cum Sensitization Programme on “Rooftop Off Grid Solar Energy Technologies” held from 14th – 16th February, 2017 at Panchayat Raj Training Institution, Udaipur, Gomati District, India.",
+      "“Training Course on Training Need Analysis” held from 30th October – 04th November, 2017 at SIPARD, A.D Nagar, Tripura, India.",
+      "“Three Day Course on Facilitation Skills” held from 11th – 13th December, 2017 at SIPARD, A.D Nagar, Tripura, India.",
+      "2 Day District Level Training of Trainers on “Panchayat Enterprise Suite (PES) Applications” held on 27th & 28th December, 2017 at PRTI, A.D Nagar, Tripura, India."
+    ],
+    "2018": [
+      "Training of Trainers Programme on “e-Enablement of Gram Panchayats: PES and PFMS” held from 18th – 22nd June, 2018 at NIRDPR, Hyderabad, Government of India.",
+      "“Comprehensive Online Modified Modules for Induction Training (COMMIT)” – workshop for Training of Trainers held on 11th October, 2018 at SIPARD, A.D Nagar, Tripura, India."
+    ],
+    "2019": [
+      "“One week Trainer Development Programme on Experiential Learning Tools (ELT)” held from 15th – 19th January 2019 at SIPARD, A.D Nagar, Tripura, India.",
+      "Training Programme on “ICT Applications in Office Automation” held from 12th – 16th February, 2019 at NIRD&PR-NERC, Guwahati, Government of India."
+    ],
+    "2020": [
+      "Training on “Blockchain Technology” held on 14th January, 2020 at Pragna Bhaban, Agartala, India organized by DIT, Agartala, Government of Tripura in collaboration with National Institute of Smart Government.",
+      "Training on “Digital Governance” held on 28th January, 2020 at Pragna Bhaban, Agartala, India organized by DIT, Agartala, Government of Tripura in collaboration with National Institute of Smart Government.",
+      "“Trainers of Training Programme on Direct Trainers Skill (DTS)” held from 17th – 21st March 2020 at SIPARD, A.D Nagar, Tripura, India.",
+      "Online International Training on “Learning Science and impact of e-Learning on Rural Development Training” organized by the Panchayat Raj Training Institute, A. D. Nagar, Agartala on 24th & 25th August, 2020.",
+      "Online Training of Trainers Programme on “Certification of Master Resource Persons” held from 31st August to 03rd September, 2020 organized by NIRDPR, Hyderabad, Government of India.",
+      "Online Training of Trainers Programme on “Institutionalisation of Sustainable Development Goals (SDGs) through Panchayats to manage COVID-19 crisis” held from 15th September to 18th September, 2020 organized by NIRDPR, Hyderabad, Government of India.",
+      "Online International Training on “Disaster Risk Resilience Leadership” organized by the Panchayat Raj Training Institute, A. D. Nagar, Agartala on 24th & 25th September, 2020.",
+      "The International Webinar on Application of ICT in Higher Education During Covid-19 Pandemic Jointly Organized by IQAC & IGNOU Cell of Government Degree College, Kamalpur in collaboration with IGNOU, Agartala Regional Centre on 2nd September 2020.",
+      "The Webinar on National Education Policy 2020 Organized by Bir Bikram Memorial Government Degree College, Agartala, Government of Tripura on 18th September 2020.",
+      "Online Training of Trainers Programme on “Spatial Planning for GPDP” held from 21st September to 25th September, 2020 organized by NIRDPR-NERC, Guwahati, Government of India.",
+      "Online Webinar Programme on “Applications of Open Source Technologies in Rural Development” held from 06th – 09th October, 2020, organized by at NIRD&PR-NERC, Guwahati, Government of India.",
+      "Online Training of Trainers Programme on “Online ToT on Effective Utilization of 15th Finance Commission Grants” held from 12th October to 15th October, 2020 organized by NIRDPR, Hyderabad, Government of India.",
+      "Online Orientation Training on “Panchayat Enterprise Suites (PES) and eGramSwaraj” held from 07th – 10th October, 2020, Certificate ID: XCV2UQ-CE000011 organized by at NIRD&PR-NERC, Guwahati, Government of India."
+    ],
+    "2021": [
+      "One day National Level “Consultative Workshop on Service Delivery by Panchayats” held on 22nd November 2021 at ANSSIRD in Mysuru, organized by NIRD & PR, Hyderabad."
+    ],
+    "2022": [
+      "3-day training on “Village Poverty Reduction Plan (VPRP)” held from 1st to 3rd August 2022 at Kolkata, initiated by the RD (Panchayat) Department, Government of Tripura.",
+      "National Writeshop on revamped “National Panchayat Awards” held from 16th to 18th August 2022 at New Delhi, organized by the Ministry of Panchayati Raj, Government of India."
+    ],
+    "2023": [
+      "National Workshop on “ISO Certification of Panchayats” held from 5th to 7th July 2023 at Kerala Institute of Local Administration (KILA), Kerala, organized by the Ministry of Panchayati Raj (MoPR), Government of India.",
+      "Two-Day National Level Write-shop on “Panchayat Development Index (PDI)” held from 10th – 11th August 2023 at Dr. Ambedkar International Centre (DAIC), New Delhi, organized by the Ministry of Panchayati Raj (MoPR), Government of India."
+    ],
+    "2024": [
+      "“Training of Trainers (ToT) programs on Localization of SDGs for PRIs: Village with Good Governance” held from 29th – 31st January 2024 at NIRD & PR, SIRD Assam, for State Level Master Trainers (SLMTs).",
+      "National Training Program on “Research Methodology: Analysis, Interpretation and Dissemination of Data for RD and CSR Professionals” held from 14th – 16th February 2024 at NIRD&PR, Delhi Branch, India Habitat Centre, New Delhi.",
+      "One Day National Workshop on “Up-grading skills for preparing of Training Calendar” under revamped RGSA held on 19th June 2024 at NIRD&PR, Hyderabad.",
+      "National Panchayat Awards Ceremony held at Vigyan Bhawan, New Delhi on 11th December 2024.",
+      "Five (05) days Refresher Training Programme for preparation of AAP of RGSA and furnishing the QPR held from 9th - 13th December 2024 at IIPA, New Delhi."
+    ],
+    "2025": [
+      "Two-Day National Level Write-shop on the “Panchayat Advancement Index (PAI) Version 2.0” held on 26th – 27th May 2025 at Dr. Ambedkar International Centre, New Delhi.",
+      "Two Day Training Workshop on “e-Gramswaraj Enhancements and Modifications in Planning, Accounting and Profiler” held during 9th – 10th September 2025 at Dr. Ambedkar International Centre (DAIC), 15 Janpath, New Delhi.",
+      "3rd Edition of “NESAC User Interaction Meet (NeUIM)-2025” scheduled to be held during 25th – 26th September 2025 via Hybrid mode at NESAC, Dept. of Space, Govt. of India, Meghalaya.",
+      "“Exposure Visit to the State of Karnataka” held from 27th to 28th October 2025."
+    ],
+    "2026": [
+      "Attended Management Development Program from 19th Jan to 23rd Jan 2026 at the IIM Shillong.",
+      "Five-day Faculty Development Programme (FDP) from 25th February to 1st March, 2026 at NIRD Hyderabad."
+    ]
+  }
+}
