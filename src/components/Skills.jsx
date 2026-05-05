@@ -5,6 +5,7 @@ import './Skills.css';
 
 const Skills = () => {
   const categories = Object.keys(cvData.skills);
+  const allSkills = Object.values(cvData.skills).flat();
 
   return (
     <section id="skills" className="section-container">
@@ -40,6 +41,22 @@ const Skills = () => {
           </motion.div>
         ))}
       </div>
+
+      <motion.div 
+        className="skills-marquee-container"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8, delay: 0.5 }}
+      >
+        <div className="skills-marquee">
+          {allSkills.concat(allSkills).map((skill, idx) => (
+            <span className="marquee-skill-badge" key={idx}>
+              {skill}
+            </span>
+          ))}
+        </div>
+      </motion.div>
     </section>
   );
 };

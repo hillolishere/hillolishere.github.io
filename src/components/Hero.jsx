@@ -1,16 +1,21 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { cvData } from '../data/cvData';
 import { Terminal, Code, Cpu } from 'lucide-react';
 import './Hero.css';
 
 const Hero = () => {
+  const { scrollY } = useScroll();
+  const yContent = useTransform(scrollY, [0, 1000], [0, 150]);
+  const yVisual = useTransform(scrollY, [0, 1000], [0, -150]);
+
   return (
     <section id="home" className="hero-section">
       <div className="hero-container section-container">
         
         <motion.div 
           className="hero-content"
+          style={{ y: yContent }}
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
@@ -56,6 +61,7 @@ const Hero = () => {
 
         <motion.div 
           className="hero-visual"
+          style={{ y: yVisual }}
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.5 }}

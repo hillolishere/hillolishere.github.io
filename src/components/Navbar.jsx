@@ -56,7 +56,7 @@ const Navbar = () => {
       <div className="navbar-content section-container">
         <a href="#home" className="logo mono-text">
           <Terminal className="logo-icon" size={24} /> 
-          <span>HD // OS</span>
+          <span>Er. Hillol Das</span>
         </a>
 
         <div className="desktop-menu">
@@ -73,7 +73,9 @@ const Navbar = () => {
             </motion.a>
           ))}
           <motion.a 
-            href="/cv.pdf" 
+            href="/Hillol_Das_CV.pdf" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-resume glass-panel"
             whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(34, 211, 238, 0.4)" }}
             whileTap={{ scale: 0.95 }}

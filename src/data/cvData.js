@@ -1,17 +1,20 @@
 export const cvData = {
   hero: {
-    title: "HILLOL DAS",
-    role: "#Researcher, #Academic Expert",
-    experience: "9+ years of experience",
+    title: "Er. HILLOL DAS",
+    role: "AIoT Researcher | Cloud-based Distributed System Integrator | Academic Expert | App Developer",
+    experience: "14+ years of experience",
     contact: {
       email: "hillol.das@gov.in",
       altEmail: "hilloldascs@gmail.com",
       mobile: "+91 9774840986 / 7005917758",
       linkedin: "https://www.linkedin.com/in/hillolishere",
-      facebook: "https://www.facebook.com/hillolishere"
+      facebook: "https://www.facebook.com/hillolishere",
+      instagram: "https://www.instagram.com/hillolishere",
+      x: "https://x.com/hillolishere",
+      website: "https://hillolishere.github.io/"
     }
   },
-  objective: "To acquire an opportunity to establish an academic career in an organization where I can do meaningful works for the development of my teaching ability and which offers opportunity for growth, enriching the experience and to achieve excellence in the field of my work.",
+  objective: "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact. Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems. To acquire an opportunity to establish an academic career in an organization where I can do meaningful works for the development of my teaching ability and which offers opportunity for growth, enriching the experience and to achieve excellence in the field of my work.",
   interests: [
     "Technology related matters",
     "e-Governance",
@@ -128,6 +131,12 @@ export const cvData = {
       desc: "Mini project in B.E."
     },
     {
+      year: "2023",
+      title: "Gram Barta App",
+      tech: "Android, Firebase",
+      desc: "Developed to facilitate rural communication (Available on Google Play Store)"
+    },
+    {
       year: "2011",
       title: "Blue Brain – an Artificial Intelligence Product",
       tech: "Seminar",
@@ -159,12 +168,12 @@ export const cvData = {
     }
   ],
   skills: {
-    languages: ["C++", "HTML", "JAVA", "J2EE", "C#.NET", "ASP.NET", "Dart"],
-    os: ["Windows 10", "Ubuntu", "Android 10"],
-    database: ["ORACLE 11g", "SQL SERVER 2008", "MySQL"],
-    frameworks: ["STRUTS 2", "HIBERNATE 3.5", "EJB 3.1", "Flutter"],
-    ide: ["Android Studio", "Eclipse Helios", "Microsoft Visual Studio", "Matlab", "Arduino", "IntelliJ IDEA", "NetBeans", "Adobe Dreamweaver"],
-    other: ["Google AdSense", "Firebase", "AdMob"]
+    languages: ["Python", "JavaScript", "TypeScript", "Dart", "C++", "Java", "C#"],
+    os: ["Windows 11", "Linux", "Android", "iOS"],
+    database: ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Firebase Firestore"],
+    frameworks: ["Flutter", "React.js", "Node.js", "Spring Boot", "Next.js"],
+    ide: ["VS Code", "Android Studio", "IntelliJ IDEA", "Jupyter Notebook", "Visual Studio", "Arduino IDE"],
+    other: ["LLM", "Computer Vision", "Microsoft Azure", "AWS", "Docker", "Git", "AI Studio"]
   },
   achievements: [
     "Qualified Graduate Aptitude Test in Engineering (GATE) twice in the year 2012 and 2015.",
