@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   width: 100vw;
-  z-index: 100;
+  z-index: 999;
   border-radius: 0;
   background: transparent;
   border: none;
@@ -12,6 +12,10 @@
 .navbar.scrolled {
   background: rgba(7, 9, 14, 0.85);
   border-bottom: 1px solid var(--glass-border);
+}
+
+.navbar.glass-panel {
+  overflow: visible !important;
 }
 
 .navbar-content {
@@ -79,6 +83,7 @@
   background: var(--bg-accent);
   min-width: 200px;
   overflow: hidden;
+  z-index: 1000;
 }
 
 .mobile-link {
