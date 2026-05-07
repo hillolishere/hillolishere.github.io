@@ -7,8 +7,11 @@ import Preloader from './components/Preloader';
 
 const About = lazy(() => import('./components/About'));
 const AcademicProfile = lazy(() => import('./components/AcademicProfile'));
-const ExperienceTimeline = lazy(() => import('./components/ExperienceTimeline'));
 const Skills = lazy(() => import('./components/Skills'));
+const Projects = lazy(() => import('./components/Projects'));
+const Publications = lazy(() => import('./components/Publications'));
+const Experience = lazy(() => import('./components/Experience'));
+const TrainingsWorkshops = lazy(() => import('./components/TrainingsWorkshops'));
 const Achievements = lazy(() => import('./components/Achievements'));
 const Footer = lazy(() => import('./components/Footer'));
 const ScrollToTop = lazy(() => import('./components/ScrollToTop'));
@@ -64,8 +67,11 @@ function App() {
       <Suspense fallback={<div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--neon-cyan)', fontFamily: 'var(--font-mono)' }}>Loading modules...</div>}>
         <About />
         <AcademicProfile />
-        <ExperienceTimeline />
         <Skills />
+        <Projects />
+        <Publications />
+        <Experience />
+        <TrainingsWorkshops />
         <Achievements />
         <Footer />
         <ScrollToTop />

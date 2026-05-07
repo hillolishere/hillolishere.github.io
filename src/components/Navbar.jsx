@@ -6,9 +6,12 @@ import './Navbar.css';
 const navLinks = [
   { text: 'Home', href: '#home' },
   { text: 'About', href: '#about' },
-  { text: 'Academic', href: '#academic' },
+  { text: 'Academic Profile', href: '#academic' },
+  { text: 'Software Skills', href: '#skills' },
+  { text: 'Projects', href: '#projects' },
+  { text: 'Publications', href: '#publications' },
   { text: 'Experience', href: '#experience' },
-  { text: 'Skills', href: '#skills' },
+  { text: 'Trainings & Workshops', href: '#trainings' },
   { text: 'Achievements', href: '#achievements' },
   { text: 'Contact', href: '#contact' }
 ];
@@ -69,7 +72,7 @@ const Navbar = () => {
               whileHover={{ scale: 1.05, color: 'var(--neon-cyan)' }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <span className="mono-text index">0{idx + 1}.</span> {link.text}
+              {link.text}
             </motion.a>
           ))}
           <motion.a 
@@ -104,7 +107,7 @@ const Navbar = () => {
                 className="mobile-link" 
                 onClick={(e) => handleScroll(e, link.href)}
               >
-                <span className="mono-text">0{idx + 1}.</span> {link.text}
+                {link.text}
               </a>
             ))}
           </motion.div>

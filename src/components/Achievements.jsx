@@ -14,7 +14,7 @@ const Achievements = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <span className="mono-text" style={{fontSize:'1.5rem', marginRight:'1rem'}}>05.</span>
+        <span className="mono-text" style={{fontSize:'1.5rem', marginRight:'1rem'}}>08.</span>
         Achievements
       </motion.h2>
 

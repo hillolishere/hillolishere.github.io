@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { trainingsData } from '../data/trainings';
-import './ExperienceTimeline.css';
+import './TrainingsWorkshops.css';
 
-const ExperienceTimeline = () => {
+const TrainingsWorkshops = () => {
   const [expandedYear, setExpandedYear] = useState(null);
 
   const toggleYear = (year) => {
@@ -14,7 +14,7 @@ const ExperienceTimeline = () => {
   const years = Object.keys(trainingsData).sort((a, b) => b - a);
 
   return (
-    <section id="experience" className="section-container">
+    <section id="trainings" className="section-container">
       <motion.h2 
         className="section-title"
         initial={{ opacity: 0, y: 30 }}
@@ -22,7 +22,7 @@ const ExperienceTimeline = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <span className="mono-text" style={{fontSize:'1.5rem', marginRight:'1rem'}}>03.</span>
+        <span className="mono-text" style={{fontSize:'1.5rem', marginRight:'1rem'}}>07.</span>
         Trainings & Workshops
       </motion.h2>
 
@@ -77,4 +77,4 @@ const ExperienceTimeline = () => {
   );
 };
 
-export default ExperienceTimeline;
+export default TrainingsWorkshops;

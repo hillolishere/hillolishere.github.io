@@ -16,7 +16,7 @@ const Skills = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <span className="mono-text" style={{fontSize:'1.5rem', marginRight:'1rem'}}>04.</span>
+        <span className="mono-text" style={{fontSize:'1.5rem', marginRight:'1rem'}}>03.</span>
         Software Skills
       </motion.h2>
 
