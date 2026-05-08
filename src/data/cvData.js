@@ -202,7 +202,9 @@ export const cvData = {
     "Hillol Das, Ashim Saha, Suman Deb. “An expert system to distinguish a defective eye from a normal eye”. 2014 International Conference on Issues & Challenges in Intelligent Computing Techniques (ICICT 2014), IEEE ISBN: 978-1-4799-2899-6 pp159-162.",
     "Hillol Das, Ashim Saha, Suman Deb. “Locating Optic Disk in Retinal Fundus Images using Normalized Cross Correlation”. International Conference on Emerging Research in Computing, Information, Communication and Applications, ERCICA 2014, ELSEVIER, ISBN: 9789351072638, Bangalore, INDIA.",
     "Er. Hillol Das, “Strategies to make Training Programs more effective at Panchayat Raj Training Institute”. International Seminar & 48th Regional Science Conference on on “Rural Habitat, Institutions and Development: Changing Nature & Challenges” held from 5th – 7th January, 2017 at Tripura University, India.",
-    "Hillol Das. “Automatic Detection and Analysis of Retinal Diseases from Fundus Images”. ISBN: 9783-659-57415-3, Publisher: LAP LAMBERT Academic Publishing, Germany."
+    "Hillol Das. “Automatic Detection and Analysis of Retinal Diseases from Fundus Images”. ISBN: 9783-659-57415-3, Publisher: LAP LAMBERT Academic Publishing, Germany.",
+    "Rapti Chaudhuri, Suman Deb, Hillol Das. (2023). Geometric Representation of Obstacles Depth in a Partially Unknown Environment for Achieving Optimized Navigation by Mobile Robots. In: Bhateja, V., Yang, XS., Chun-Wei Lin, J., Das, R. (eds) Intelligent Data Engineering and Analytics. FICTA 2022. Smart Innovation, Systems and Technologies, vol 327. Springer, Singapore. https://doi.org/10.1007/978-981-19-7524-0_38",
+    "Rapti Chaudhuri, Suman Deb, Hillol Das, Noble Approach on Sensor Fused Bio Intelligent Path Optimisation and Single Stage Obstacle Recognition in Customized Mobile Agent, Procedia Computer Science, Volume 218, 2023, Pages 778-787, ISSN 1877-0509, https://doi.org/10.1016/j.procs.2023.01.058."
   ],
   experience: [
     {
