@@ -35,21 +35,23 @@
   font-size: 1.5rem;
   font-weight: 800;
   letter-spacing: 2px;
+  white-space: nowrap;
 }
 
 .desktop-menu {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.25rem;
 }
 
 .nav-link {
   text-decoration: none;
   color: var(--text-primary);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 600;
   position: relative;
   transition: color 0.3s ease;
+  white-space: nowrap;
 }
 
 .nav-link .index {

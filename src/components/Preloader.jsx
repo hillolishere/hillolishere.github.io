@@ -8,6 +8,8 @@ const Preloader = () => {
 
   const bootSequence = [
     "INITIALIZING KERNEL...",
+    "PINGING SECURE SERVER [AGARTALA_HQ]...",
+    "FETCHING USER DATA: ER. HILLOL DAS...",
     "MOUNTING GLOW-FI MODULES...",
     "ESTABLISHING SECURE CONNECTION...",
     "SYSTEM ONLINE. WELCOME."
@@ -35,7 +37,7 @@ const Preloader = () => {
     }, 400); // Add a new line every 400ms
 
     // Progress bar animation
-    const duration = 2000; // 2 seconds total for progress
+    const duration = 2400; // 2.4 seconds total for progress
     const updateInterval = 20;
     const steps = duration / updateInterval;
     let currentStep = 0;
