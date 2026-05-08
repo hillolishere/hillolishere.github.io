@@ -75,16 +75,7 @@ const Navbar = () => {
               {link.text}
             </motion.a>
           ))}
-          <motion.a 
-            href="/Hillol_Das_CV.pdf" 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-resume glass-panel"
-            whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(34, 211, 238, 0.4)" }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Download CV
-          </motion.a>
+
         </div>
 
         <button className="mobile-toggle" onClick={() => setIsOpen(!isOpen)}>

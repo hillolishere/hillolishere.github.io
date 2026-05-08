@@ -16,14 +16,11 @@ export const cvData = {
   },
   objective: "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact. Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems. To acquire an opportunity to establish an academic career in an organization where I can do meaningful works for the development of my teaching ability and which offers opportunity for growth, enriching the experience and to achieve excellence in the field of my work.",
   interests: [
-    "e-Governance: Process automation and digital public infrastructure.",
-    "IT Consulting & Capacity Building: Technical education, training, and strategic implementation.",
+    "e-Governance & Consulting: Digital public infrastructure and capacity building.",
     "Geo-Spatial Analytics: GIS and remote sensing for rural planning.",
-    "AIoT & Smart Automation: Predictive modeling and resource optimization.",
-    "Machine Learning: Data-driven algorithms and predictive analytics.",
-    "Cloud-Native Systems: Backend automation and serverless architecture.",
-    "Computer Vision: Automated pattern recognition and image processing.",
-    "HCI in IoT Ecosystems: Smart environments and gesture-based control."
+    "AIoT, Cloud & HCI: Smart automation, serverless architecture.",
+    "AI, ML & Vision: Predictive modeling, data algorithms, and pattern recognition.",
+    "Mobile & Software Development: End-to-end application architecture and deployment."
   ],
   academicProfile: [
     {
@@ -244,8 +241,8 @@ export const cvData = {
       duration: "March 2012 - July 2012"
     },
     {
-      role: "PARAM Super Computer Instructor",
-      organization: "C-DAC Satellite Center at NIT Agartala",
+      role: "Computer Instructor",
+      organization: "PARAM Super Computer Lab, C-DAC Satellite Center, NIT Agartala",
       duration: "August 2011 - February 2012"
     }
   ],

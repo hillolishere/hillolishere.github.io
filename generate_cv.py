@@ -7,6 +7,8 @@ import re
 
 def clean_text(text):
     # Replace unicode quotes with standard quotes
+    if not isinstance(text, str):
+        return str(text)
     text = text.replace('\u201c', '"').replace('\u201d', '"')
     text = text.replace('\u2018', "'").replace('\u2019', "'")
     text = text.replace('\u2013', "-").replace('\u2014', "-")
@@ -84,6 +86,22 @@ def build_pdf():
     story.append(Paragraph(clean_text(data['objective']), normal_style))
     story.append(Spacer(1, 10))
 
+    # Interests
+    if 'interests' in data:
+        story.append(Paragraph("AREAS OF INTEREST", heading_style))
+        items = []
+        for interest in data['interests']:
+            items.append(ListItem(Paragraph(clean_text(interest), bullet_style)))
+        story.append(ListFlowable(items, bulletType='bullet', spaceAfter=10))
+
+    # Professional Experience
+    if 'experience' in data:
+        story.append(Paragraph("PROFESSIONAL EXPERIENCE", heading_style))
+        for exp in data['experience']:
+            text = f"<b>{clean_text(exp['role'])}</b><br/>{clean_text(exp['organization'])} ({clean_text(exp['duration'])})"
+            story.append(Paragraph(text, normal_style))
+            story.append(Spacer(1, 5))
+
     # Academic Profile
     story.append(Paragraph("ACADEMIC PROFILE", heading_style))
     for edu in data['academicProfile']:
@@ -104,20 +122,31 @@ def build_pdf():
     if 'projects' in data:
         story.append(Paragraph("KEY PROJECTS", heading_style))
         for proj in data['projects']:
-            text = f"<b>{clean_text(proj['title'])}</b> ({proj['year']}) - {clean_text(proj['tech'])}<br/>{clean_text(proj['desc'])}"
+            tech_or_domain = proj.get('tech', proj.get('domain', ''))
+            tech_str = f" - {clean_text(tech_or_domain)}" if tech_or_domain else ""
+            text = f"<b>{clean_text(proj['title'])}</b> ({proj['year']}){tech_str}<br/>{clean_text(proj['desc'])}"
             story.append(Paragraph(text, normal_style))
             story.append(Spacer(1, 5))
 
-    # Experience & Trainings
-    story.append(Paragraph("EXPERIENCE & TRAININGS", heading_style))
-    trainings = data['trainings']
-    years = sorted(trainings.keys(), reverse=True)
-    for year in years:
-        story.append(Paragraph(f"<b>{year}</b>", normal_style))
+    # Publications
+    if 'publications' in data:
+        story.append(Paragraph("PUBLICATIONS", heading_style))
         items = []
-        for t in trainings[year]:
-            items.append(ListItem(Paragraph(clean_text(t), bullet_style)))
+        for pub in data['publications']:
+            items.append(ListItem(Paragraph(clean_text(pub), bullet_style)))
         story.append(ListFlowable(items, bulletType='bullet', spaceAfter=10))
+
+    # Experience & Trainings
+    if 'trainings' in data:
+        story.append(Paragraph("TRAININGS & WORKSHOPS", heading_style))
+        trainings = data['trainings']
+        years = sorted(trainings.keys(), reverse=True)
+        for year in years:
+            story.append(Paragraph(f"<b>{year}</b>", normal_style))
+            items = []
+            for t in trainings[year]:
+                items.append(ListItem(Paragraph(clean_text(t), bullet_style)))
+            story.append(ListFlowable(items, bulletType='bullet', spaceAfter=10))
 
     # Achievements
     story.append(Paragraph("ACHIEVEMENTS", heading_style))

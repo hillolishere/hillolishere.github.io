@@ -54,7 +54,7 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 1.3 }}
           >
-            <a href="#experience" className="btn-primary glass-panel">Explore My Work</a>
+            <a href="/Hillol_Das_CV.pdf" target="_blank" rel="noopener noreferrer" className="btn-primary glass-panel">Download CV</a>
             <a href="#contact" className="btn-secondary mono-text">{'<Contact />'}</a>
           </motion.div>
         </motion.div>
